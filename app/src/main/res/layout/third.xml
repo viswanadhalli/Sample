@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bdp"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:text="Birthday Permission"
+        android:textSize="45dp"
+        android:background="@color/color1"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/name4"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_below="@+id/bdp"
+        android:hint="Name"
+        android:textSize="30dp"/>
+    <EditText
+        android:layout_marginTop="25dp"
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_below="@+id/name4"
+        android:hint="Place"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_below="@+id/place"
+        android:hint="Number of Persons"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no"
+        android:text="submit"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:background="@color/color1"/>
+
+</RelativeLayout>
